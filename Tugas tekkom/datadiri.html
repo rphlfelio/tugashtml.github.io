@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="">
+    <title> @_rphlfelio - 71231049 - Personal Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            &hearts; Data diri &hearts; 
+        </h1>
+    </header>
+    <section id="foto">
+        <img src="fotosaya.jpg" width ="190">
+    </section>
+    <section id="tentang-saya">
+        <p><b>
+            Raphael Felio Bagaskara 
+        </p></b>
+    
+        <p>
+            Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia
+        </p>
+        <p>
+            Universitas Kristen Duta Wacana
+    </p>
+    <p>
+    <img src="ig.jpg" width="20"><a href="https://www.instagram.com/_rphlfelio/?hl=bg" target="_blank">INSTAGRAM</a></p>
+    </section>
+    <section id="keterampilan">
+        <h5>
+            Skill
+            <ol>
+                <li>C</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ol>
+        </h5>
+    </section>
+    
+    <button id="tombolGantiWarna">Ganti Warna</button>
+
+    <footer>
+    <h6> THANK YOU FOR VISITING </h6>
+    </footer>
+
+    <script>
+        const bodyElement = document.body;
+
+        function gantiWarnaRandom() {
+            const warnaList = ['#FFC47E', '#FA7070', '#96EFFF', '#C683D7']
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+
+        const tombolGantiWarna = document.getElementById('tombolGantiWarna')
+        tombolGantiWarna.addEventListener('click',gantiWarnaRandom)
+    </script>
+</body>
+</html>

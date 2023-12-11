@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #9BB8CD;
+    color: white;
+    text-align:center;
+    padding: 1em;
+    size:15;
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #9BB8CD;
+    color: #191919;
+    size: 70;
+}
